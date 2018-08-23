@@ -22,7 +22,7 @@
             }
                
                 console.log("user login called");
-                $http.get("https://bztwi1cu97.execute-api.ap-south-1.amazonaws.com/TF/tf?CIN=" + arg)
+                $http.get("https://cors.io/?https://bztwi1cu97.execute-api.ap-south-1.amazonaws.com/TF/tf?CIN=" + arg)
                 .then(userDetailsSuccess,userDetailsError);
         });
 
